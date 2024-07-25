@@ -12,7 +12,7 @@ public class Application implements CommandLineRunner {
 	public static final Logger logger = LoggerFactory.getLogger(Application.class);
 	public static void main(String[] args) {
 
-		logger.info("It's a continuous integration job");
+		logger.info("It's a continuous integration demo");
 		SpringApplication.run(Application.class, args);
 
 	}
